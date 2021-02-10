@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GridModule } from '@progress/kendo-angular-grid';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProductModule } from './product/product.module';
 
 @NgModule({
   declarations: [
@@ -13,8 +13,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    GridModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ProductModule
   ],
   providers: [],
   bootstrap: [AppComponent]
